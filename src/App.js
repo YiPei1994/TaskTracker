@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Button, Container, Heading } from "@chakra-ui/react";
+import NewTask from "./components/NewTask";
+import Tasks from "./components/Tasks";
+import { useTracker } from "./useTracker";
 
 function App() {
+  const { show, handleShow } = useTracker();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container textAlign="center">
+      <Heading textAlign="center" my="20px">
+        Task Tracker
+      </Heading>
+
+      <Button mt="20px" onClick={handleShow}>
+        Add more Tasks
+      </Button>
+      {show && <NewTask />}
+
+      <Tasks />
+    </Container>
   );
 }
 

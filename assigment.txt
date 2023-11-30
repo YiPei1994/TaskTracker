@@ -1,0 +1,44 @@
+
+Assignment: Task Tracker Application
+Overview:
+Build a Task Tracker application using React. The application should allow users to add, delete, and toggle the status of tasks.
+
+Requirements:
+Task List:
+
+Display a list of tasks with their names and statuses (completed or not completed).
+Each task should have a delete button to remove it from the list.
+Each task should have a toggle button to change its status between completed and not completed.
+Task Form:
+
+Include a form to add new tasks.
+The form should have a text input for the task name.
+When a user submits the form, the new task should be added to the task list.
+Styling:
+
+Style the application to make it visually appealing.
+You can use a CSS framework (like Bootstrap) or create your own styles.
+Technical Requirements:
+Use React to build the application.
+Use state and props to manage the data and communication between components.
+Implement the CRUD operations (Create, Read, Update, Delete) for tasks.
+Ensure the application is responsive and works well on different screen sizes.
+Bonus (Optional):
+Local Storage:
+
+Implement local storage to persist tasks even when the page is refreshed.
+Filtering:
+
+Add a filtering option to show only completed or not completed tasks.
+Due Dates:
+
+Allow users to set due dates for tasks.
+Submission:
+Provide the source code for the project (you can use GitHub or any other version control system).
+Include a README file with instructions on how to run the application locally.
+This assignment is designed to assess your understanding of React basics, state management, and basic CRUD operations. Feel free to expand on the requirements or add additional features to showcase your skills. Good luck!
+
+
+
+
+
